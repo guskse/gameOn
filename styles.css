@@ -210,7 +210,7 @@ h3 {
   gap: 30px;
   overflow-x: auto;
   padding-block-end: 30px;
-  scroll-snap-type: inline;
+  scroll-snap-type: mandatory;
 }
 
 .has-scrollbar::-webkit-scrollbar {
@@ -1523,27 +1523,24 @@ h3 {
     grid-template-columns: 1fr 1fr;
   }
 
-
   /*NEWSLETTER*/
-  .newsletter-card{
-    display:flex;
+  .newsletter-card {
+    display: flex;
     justify-content: space-between;
-    align-items:center;
-    padding-inline:70px;
+    align-items: center;
+    padding-inline: 70px;
   }
 
-  .newsletter .h2{
-    margin-block-end:0;
+  .newsletter .h2 {
+    margin-block-end: 0;
   }
 
-  .newsletter-form{
-    margin-inline:0;
+  .newsletter-form {
+    margin-inline: 0;
   }
 
   /*FOOTER*/
   .footer .container {
     grid-template-columns: 1fr 0.7fr 0.7fr 1fr;
   }
-
-
 }
